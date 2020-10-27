@@ -3,9 +3,8 @@ import 'package:web_socket_channel/io.dart';
 import 'package:flutter/material.dart';
 import 'package:web_socket_channel/web_socket_channel.dart';
 
-void main() => runApp(MyApp());
 
-class MyApp extends StatelessWidget {
+class WebSocketApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final title = 'WebSocket Demo';
